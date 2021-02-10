@@ -9,7 +9,7 @@ class Log{
       this.width = 20;
       this.height = height;
       Matter.Body.setAngle(this.body, angle);
-      this.image = loadImage("sprites/wood2.png");
+      this.image = loadImage("wood2.png");
       World.add(world, this.body);
     }
     display(){
